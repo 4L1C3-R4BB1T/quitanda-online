@@ -1,0 +1,84 @@
+:root {
+    --bs-primary: #e95420;
+    --bs-secondary: #aea79f;
+    --bs-success: #38b44a;
+    --bs-info: #17a2b8;
+    --bs-warning: #efb73e;
+    --bs-danger: #df382c;
+    --bs-light: #e9ecef;
+    --bs-dark: #772953;
+    --bs-primary-rgb: 233, 84, 32;
+    --bs-secondary-rgb: 174, 167, 159;
+    --bs-success-rgb: 56, 180, 74;
+    --bs-info-rgb: 23, 162, 184;
+    --bs-warning-rgb: 239, 183, 62;
+    --bs-danger-rgb: 223, 56, 44;
+    --bs-light-rgb: 233, 236, 239;
+    --bs-dark-rgb: 119, 41, 83;
+}
+
+footer > div a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+footer > div a:hover {
+    opacity: 0.6;
+}
+
+.card-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.table tr > td:nth-of-type(1),
+.table tr > td:nth-of-type(3),
+.table tr > td:nth-of-type(4),
+.table tr > td:nth-of-type(5),
+.table tr > td:nth-of-type(6),
+.table tr > th:nth-of-type(1),
+.table tr > th:nth-of-type(3),
+.table tr > th:nth-of-type(4),
+.table tr > th:nth-of-type(5),
+.table tr > th:nth-of-type(6) {
+    white-space: nowrap;
+    width: 1%;
+    text-align: center;
+}
+
+.carousel-control-prev {
+    justify-content: start !important;
+}
+
+.carousel-control-next {
+    justify-content: end !important;
+}
+
+.carousel-indicators button {
+    width: 15px !important;    
+    height: 15px !important;
+    border-radius: 300% !important;
+}
+
+.fs-32-px {
+    font-size: 32px;
+}
+
+.fs-48-px {
+    font-size: 48px;
+}
+
+.fs-64-px {
+    font-size: 64px;
+}
+
+.bg-brown {
+    background-color: #54412F;
+}
+
+.text-brown {
+    color: #54412F;
+}
